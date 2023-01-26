@@ -1,0 +1,55 @@
+// Grid
+$grid-breakpoints: (
+				xs: 0,
+				sm: 576px,
+				md: 768px,
+				lg: 992px,
+				xl: 1200px,
+				xxl: 1400px
+) !default;
+$container-max-widths: (
+				sm: 540px,
+				md: 720px,
+				lg: 960px,
+				xl: 1140px,
+				xxl: 1320px
+) !default;
+$enable-grid-classes: true !default;
+$enable-cssgrid: false !default;
+$grid-columns: 12 !default;
+$grid-gutter-width: 34px !default;
+$grid-row-columns: 6 !default;
+
+// General
+$transition: all 0.3s ease-in-out;
+$element-margin: 30px;
+$element-padding: 30px;
+
+// Colors - basic
+$col-white: #fff;
+$col-black: #000;
+
+// Colors - theme
+$col-brand-primary: #95F039;
+$col-brand-accent: #03080E;
+
+// Body element settings
+$col-bg: #707070;
+$col-text: $col-white;
+
+// Font
+$font-family-base: 'Korolev', sans-serif;
+$font-family-roboto: 'Roboto', sans-serif;
+$font-size-default: 18px;
+$line-height-default: 32px;
+$font-size-desktop: 18px;
+$line-height-desktop: 32px;
+
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-heavy: 900;
+
+// Heading font-sizes and line-heights for both mobile and desktop versions are located at abstracts/_mixins.scss
+// Ex.: @include title-size-1

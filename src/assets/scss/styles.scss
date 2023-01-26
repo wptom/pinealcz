@@ -1,0 +1,35 @@
+// Reset
+// @import "./base/reset";
+
+// Typography
+@import "./typography";
+
+// Variables, Mixins
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+// Bootstrap imports
+@import "./vendor/bootstrap";
+
+// Common basic styles
+:hover {
+	transition: $transition;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $col-bg;
+	color: $col-text;
+	font-size: $font-size-default;
+	line-height: $line-height-default;
+
+	@include media-breakpoint-up(lg) {
+		//font-size: 40px;
+	}
+}
