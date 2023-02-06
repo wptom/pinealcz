@@ -21,25 +21,28 @@ $grid-gutter-width: 34px !default;
 $grid-row-columns: 6 !default;
 
 // General
-$transition: all 0.3s ease-in-out;
+$transition: all 0.5s ease-in-out;
 $element-margin: 30px;
 $element-padding: 30px;
 
 // Colors - basic
 $col-white: #fff;
 $col-black: #000;
-
-// Colors - theme
-$col-brand-primary: #95F039;
-$col-brand-accent: #03080E;
+$col-green: #40D41D;
+$col-green-light: #95F039;
+$col-orange: #FF8000;
+$col-yellow: #FFBA00;
+$col-gray-dark: #181A21;
+$col-gray: #9DA2B4;
+$col-light: #D5D8E3;
 
 // Body element settings
-$col-bg: #707070;
+$col-bg: $col-gray-dark;
 $col-text: $col-white;
 
 // Font
-$font-family-base: 'Korolev', sans-serif;
-$font-family-roboto: 'Roboto', sans-serif;
+$font-family-base: 'Archivo', sans-serif;
+$font-family-archivo-semiexpanded: 'Archivo SemiExpanded', sans-serif;
 $font-size-default: 18px;
 $line-height-default: 32px;
 $font-size-desktop: 18px;

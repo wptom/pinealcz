@@ -1,10 +1,11 @@
 import React from 'react';
+import Brands from "../components/Brands.jsx";
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <>
+      <Brands />
+    </>
   );
 };
 
