@@ -192,3 +192,69 @@ export const pageCareer = {
     }
   ]
 }
+
+export const ReferencesSlider = [
+  {
+    text: 'Top level service, qualified and creative people. Our company always enjoys this collaboration. In addition, they value a great empathetic human approach. This organization really cares about their clients and not just about what they’ll receive in return.“',
+    name: 'Brian Evans, BidAskBit'
+  },
+  {
+    text: 'Không có gì làm khó được Pineal. Họ luôn mang đến những giải pháp thông minh. Họ làm việc nhanh chóng, siêu linh hoạt, đi cùng chất lượng hoàn hảo. Thật tuyệt khi được làm việc cùng họ.“',
+    name: 'Nguyễn Văn Minh, ZetaTraders'
+  },
+  {
+    text: 'Oceňujem presné dodržiavanie termínov, precízne spracované kampane a čisté cielenie. Za všetko hovoria marketingové výsledky.“',
+    name: 'Peter Kollár, 3AngleFX'
+  },
+  {
+    text: 'Top level service, qualified and creative people. Our company always enjoys this collaboration. In addition, they value a great empathetic human approach. This organization really cares about their clients and not just about what they’ll receive in return.“',
+    name: 'John Doe, BidAskBit'
+  }
+];
+
+export const VariousServicesData = [
+  {
+    title: 'Marketing a reklama',
+    text: [
+      'Specializujeme se tvorbou a přípravou reklamních návrhů a plánů, případně Vám zařídíme i pronájem reklamních prostorů nebo času v médiích.',
+      'Na základě Vašich požadavků navrhneme a vytvoříme reklamní kampaň a strategii, která Vám pomůže dostáhnout stanoveného cíle.'
+    ],
+    btn: {
+      text: 'Zjistit více',
+      url: '#'
+    }
+  },
+  {
+    title: 'Správa počítačových sítí',
+    text: [
+      'Zabýváme se údržbou a modernizací počítačové sítě, zajištění bezproblémového chodu počítačů, serverů a dalších příslušenství.',
+      'Prověříme aktuální stav Vašich počítačů a počítačové sítě, v případě potřeby zajistíme komplexní audit stávajícího vybavení a navrhneme Vám optimální řešení.'
+    ],
+    btn: {
+      text: 'Zjistit více',
+      url: '#'
+    }
+  },
+  {
+    title: 'Inteligentní systémy pro klientský servis',
+    text: [
+      'Díky <span>IVR</span> zákazníci mohou postupovat podle nahraných pokynů, aby zjistili potřebné informace nebo aby se přepojili na odborníka.',
+      '<span>CRM</span>  přináší možnost kontrolovat a klasifikovat jednotlivé hovory a následně automaticky podle typu hovoru zasílat osloveným osobám materiály.'
+    ],
+    btn: {
+      text: 'Zjistit více',
+      url: '#'
+    }
+  },
+  {
+    title: 'Účetní a daňové poradenství',
+    text: [
+      'Nabízíme služby pro fyzické i právnické osoby, příspěvkové, rozpočtové a neziskové organizace.',
+      'Nalezneme chyby v účetnictví za Vás. Poradíme Vám, které náklady si můžete odečíst z daní a najdeme pro Vás nejlepší řešení, abyste měl co nejméně starostí a zpracujeme Vaše účetnictví kdykoliv budete potřebovat.'
+    ],
+    btn: {
+      text: 'Zjistit více',
+      url: '#'
+    }
+  }
+]

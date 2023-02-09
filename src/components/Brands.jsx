@@ -19,59 +19,46 @@ const Brands = () => {
       <Container className={'text-center'}>
         <Row>
           <Col>
-            <a href="#">
+            <h2 className={'brands__title'}>Přidejte se k vysoce produktivním týmům našich partnerů</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col className={'brands__list brands__list--one'}>
+            <a href="#" className={'brands__list__link'}>
               <img src={brandBidaskbit} alt="BidAskBit"/>
             </a>
-          </Col>
-          <Col>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandCoinfy} alt="Coinfy"/>
             </a>
-          </Col>
-          <Col>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandMycoiner} alt="MyCoiner"/>
             </a>
-          </Col>
-          <Col>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandViarosi} alt="Viarosi"/>
             </a>
-          </Col>
-          <Col>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brand3anglefx} alt="3angleFX"/>
             </a>
-          </Col>
-          <Col>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandTrianglemarkets} alt="TriangleMarkets"/>
             </a>
           </Col>
         </Row>
         <Row>
-          <Col lg={2} className={'offset-lg-1'}>
-            <a href="#">
+          <Col className={'brands__list brands__list--two'}>
+            <a href="#" className={'brands__list__link'}>
               <img src={brandZetatrader} alt="ZetaTrader"/>
             </a>
-          </Col>
-          <Col lg={2}>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandForex} alt="Forex"/>
             </a>
-          </Col>
-          <Col lg={2}>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandFannex} alt="Fannex"/>
             </a>
-          </Col>
-          <Col lg={2}>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandIpromarkets} alt="IProMarkets"/>
             </a>
-          </Col>
-          <Col lg={2}>
-            <a href="#">
+            <a href="#" className={'brands__list__link'}>
               <img src={brandInvestcentrum} alt="InvestCentrum"/>
             </a>
           </Col>

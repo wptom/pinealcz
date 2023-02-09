@@ -1,5 +1,4 @@
 import React from "react";
-import iconMarketing from "../assets/images/icon-marketing.svg";
 import { Parallax, ParallaxBanner, useParallax } from 'react-scroll-parallax';
 
 const Icons = (props) => {
