@@ -1,6 +1,5 @@
 export const footerBoxes = [
   {
-    id: 111,
     title: 'Napište nám',
     btn: {
       tag: 'a',
@@ -11,7 +10,6 @@ export const footerBoxes = [
     content: ''
   },
   {
-    id: 222,
     title: 'Zavolejte',
     btn: {
       tag: 'a',
@@ -22,7 +20,6 @@ export const footerBoxes = [
     content: ''
   },
   {
-    id: 333,
     title: 'Nebo nás navštivte',
     btn: {},
     content: 'City Tower<br>Hvězdova 1716/2b, Praha 4'

@@ -1,14 +1,14 @@
 import React from "react";
 import Navigation from "../components/Navigation.jsx";
 import {Container, Row, Col} from "react-bootstrap";
-import logo from "../assets/images/logo.svg";
+import logo from "../../public/images/logo.svg";
 
 const Header = () => {
   return (
     <header className={'header'}>
       <Container>
         <Row>
-          <Col lg={4} className={'d-flex align-items-center'}>
+          <Col lg={4} className={'d-flex align-items-center header__logo'}>
             <img src={logo} alt="Pineal.cz"/>
           </Col>
           <Col lg={8}>

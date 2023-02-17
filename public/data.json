@@ -1,0 +1,337 @@
+{
+    "menu": [
+        {
+            "text": "Home",
+            "link": "/"
+        }
+    ],
+    "hero": {
+        "title": "Věnujte se <span>hlavním činnostem podniku</span>, <strong>vedlejší starosti nechte na nás.",
+        "subtitle": "Můžete snížit své operativní náklady a ušetřit si čas outsourcingem s námi.",
+        "buttons": [
+            {
+                "url": "#",
+                "text": "Navázat spolupráci",
+                "modifierClass": ""
+            },
+            {
+                "url": "#",
+                "text": "O nás",
+                "modifierClass": " btn--inverted"
+            }
+        ],
+        "illustrationLeft": "/images/hero-talk.svg",
+        "illustrationRight": "/images/hero-listen.svg"
+    },
+    "brands": {
+        "title": "Přidejte se k vysoce produktivním týmům našich partnerů",
+        "row1": [
+            {
+                "name": "BidAskBit",
+                "url": "http://bidaskbit.com/",
+                "imgPath": "/images/brand-bidaskbit.svg"
+            },
+            {
+                "name": "Coinfy",
+                "url": "http://coinfy.io/en",
+                "imgPath": "/images/brand-coinfy.svg"
+            },
+            {
+                "name": "MyCoiner",
+                "url": "https://mycoiner.cz/cs",
+                "imgPath": "/images/brand-mycoiner.svg"
+            },
+            {
+                "name": "Virarosi",
+                "url": "https://virarosi.com/en",
+                "imgPath": "/images/brand-virarosi.svg"
+            },
+            {
+                "name": "3AngleFX",
+                "url": "https://3anglefx.com/",
+                "imgPath": "/images/brand-3anglefx.svg"
+            },
+            {
+                "name": "TriangleMarkets",
+                "url": "https://triangle.markets/en",
+                "imgPath": "/images/brand-trianglemarkets.svg"
+            }
+        ],
+        "row2": [
+            {
+                "name": "ZetaTraders",
+                "url": "https://zetatraders.com/",
+                "imgPath": "/images/brand-zetatrader.svg"
+            },
+            {
+                "name": "CFForex",
+                "url": "https://cfforex.com/",
+                "imgPath": "/images/brand-forex.svg"
+            },
+            {
+                "name": "Fannex",
+                "url": "https://www.fannexx.com/",
+                "imgPath": "/images/brand-fannex.svg"
+            },
+            {
+                "name": "iPromarkets",
+                "url": "https://ipromarkets.com/",
+                "imgPath": "/images/brand-ipromarkets.svg"
+            },
+            {
+                "name": "InvestCentrum",
+                "url": "https://investcentrum.cz",
+                "imgPath": "/images/brand-investcentrum.svg"
+            }
+        ]
+    },
+    "variousServices": {
+        "title": "Rozmanitá nabídka služeb",
+        "titleImgPath": "/images/various-services.svg",
+        "serviceBoxes": [
+            {
+                "title": "Marketing a reklama",
+                "text": [
+                    "Specializujeme se tvorbou a přípravou reklamních návrhů a plánů, případně Vám zařídíme i pronájem reklamních prostorů nebo času v médiích.",
+                    "Na základě Vašich požadavků navrhneme a vytvoříme reklamní kampaň a strategii, která Vám pomůže dostáhnout stanoveného cíle."
+                ],
+                "btn": {
+                    "text": "Zjistit více",
+                    "url": "https://pineal.cz/services/marketing"
+                }
+            },
+            {
+                "title": "Správa počítačových&nbsp;sítí",
+                "text": [
+                    "Zabýváme se údržbou a modernizací počítačové sítě, zajištění bezproblémového chodu počítačů, serverů a dalších příslušenství.",
+                    "Prověříme aktuální stav Vašich počítačů a počítačové sítě, v případě potřeby zajistíme komplexní audit stávajícího vybavení a navrhneme Vám optimální řešení."
+                ],
+                "btn": {
+                    "text": "Zjistit více",
+                    "url": "https://pineal.cz/services/management"
+                }
+            },
+            {
+                "title": "Inteligentní systémy pro klientský servis",
+                "text": [
+                    "Díky <span>IVR</span> zákazníci mohou postupovat podle nahraných pokynů, aby zjistili potřebné informace nebo aby se přepojili na odborníka.",
+                    "<span>CRM</span>  přináší možnost kontrolovat a klasifikovat jednotlivé hovory a následně automaticky podle typu hovoru zasílat osloveným osobám materiály."
+                ],
+                "btn": {
+                    "text": "Zjistit více",
+                    "url": "https://pineal.cz/services/systems"
+                }
+            },
+            {
+                "title": "Účetní a daňové poradenství",
+                "text": [
+                    "Nabízíme služby pro fyzické i právnické osoby, příspěvkové, rozpočtové a neziskové organizace.",
+                    "Nalezneme chyby v účetnictví za Vás. Poradíme Vám, které náklady si můžete odečíst z daní a najdeme pro Vás nejlepší řešení, abyste měl co nejméně starostí a zpracujeme Vaše účetnictví kdykoliv budete potřebovat."
+                ],
+                "btn": {
+                    "text": "Zjistit více",
+                    "url": "https://pineal.cz/services/consulting"
+                }
+            }
+        ]
+    },
+    "references": {
+        "title": "Reference<span>Klíčem k úspěchu je spolupráce.</span>",
+        "boxes": [
+            {
+                "text": "Top level service, qualified and creative people. Our company always enjoys this collaboration. In addition, they value a great empathetic human approach. This organization really cares about their clients and not just about what they’ll receive in return.“",
+                "name": "Brian Evans, BidAskBit"
+            },
+            {
+                "text": "Không có gì làm khó được Pineal. Họ luôn mang đến những giải pháp thông minh. Họ làm việc nhanh chóng, siêu linh hoạt, đi cùng chất lượng hoàn hảo. Thật tuyệt khi được làm việc cùng họ.“",
+                "name": "Nguyễn Văn Minh, SpotTop"
+            },
+            {
+                "text": "Oceňujem presné dodržiavanie termínov, precízne spracované kampane a čisté cielenie. Za všetko hovoria marketingové výsledky.“",
+                "name": "Peter Kollár, 3AngleFX"
+            },
+            {
+                "text": "ZMENIT!!!--->Top level service, qualified and creative people. Our company always enjoys this collaboration. In addition, they value a great empathetic human approach. This organization really cares about their clients and not just about what they’ll receive in return.“",
+                "name": "John Doe, BidAskBit"
+            }
+        ]
+    },
+    "footer": {
+        "title": "Kontaktujte nás",
+        "subtitle": "Chcete navázat spolupráci nebo jen máte dotazy?",
+        "boxes": [
+            {
+                "title": "Napište nám",
+                "btn": {
+                    "tag": "a",
+                    "modifier": "",
+                    "text": "recepce@pineal.cz",
+                    "link": "mailto: recepce@pineal.cz"
+                }
+            },
+            {
+                "title": "Zavolejte",
+                "btn": {
+                    "tag": "a",
+                    "modifier": " btn--yellow",
+                    "text": "+420 773 802 121",
+                    "link": "tel: +420 773 802 121"
+                }
+            },
+            {
+                "title": "Nebo nás navštivte",
+                "content": "City Tower<br>Hvězdova 1716/2b, Praha 4"
+            }
+        ]
+    },
+    "pageServiceMarketing": {
+        "title": "<span>Služby</span>Marketing a reklama",
+        "desc": [
+            "Specializujeme se tvorbou a přípravou reklamních návrhů a plánů, případně Vám zařídíme i pronájem reklamních prostorů nebo času v médiích.",
+            "Na základě Vašich požadavků navrhneme a vytvoříme reklamní kampaň a strategii, která Vám pomůže dostáhnout stanoveného cíle."
+        ],
+        "illustration": "/images/illustration-marketing.svg",
+        "icon": "/images/icon-marketing.svg",
+        "list": [
+            "Poradenství a konzultace se specialisty v oblasti marketingu",
+            "Návrh marketingových kampaní a PPC strategií",
+            "Copywriting",
+            "Návrh a design loga, tiskovin, billboardů, internetových bannerů",
+            "Návrh a prezentace tištěných propagačních materiálů",
+            "Tvorba reklamních spotů a rádiových jinglů",
+            "Tvorba webu a webdesign",
+            "Analýza klíčových slov a správa SEO",
+            "Správa sociálních sítí",
+            "Optimalizace péče o stávající zákazníky",
+            "Optimalizace e-mailingu a pravidelné komunikace se zákazníky",
+            "Správa PR (vztahů s veřejností)",
+            "Návrh vzhledu showroomu, prodejen a poboček"
+        ]
+    },
+    "pageServiceManagement": {
+        "title": "<span>Služby</span>Správa počítačových sítí",
+        "desc": [
+            "Zabýváme se údržbou a modernizací počítačové sítě, zajištění bezproblémového chodu počítačů, serverů a dalších příslušenství, zabezpečením Vašich dat proti zcizení nebo ztrátě.",
+            "Prověříme aktuální stav Vašich počítačů a počítačové sítě, v případě potřeby zajistíme komplexní audit stávajícího vybavení a navrhneme Vám optimální řešení."
+        ],
+        "illustration": "",
+        "icon": "/images/icon-management.svg",
+        "list": [
+            "Poradenství a konzultace",
+            "Upgrade a modernizace vybavení dle potřeb zákazníka",
+            "Instalace, údržba, implementace a správa počítačových sítí",
+            "Zajištění spolehlivého a bezpečného provozu počítačové sítě",
+            "Nastavení, správa a údržba serveru",
+            "Pravidelná kontrola souborového systému",
+            "Pravidelné aktualizace serverových produktů",
+            "Zálohování uživatelských dat",
+            "Nastavení webového serveru",
+            "Nastavení a kontrola webových aplikací",
+            "Kontrola a zálohování databáze",
+            "Nastavení a kontrola funkčnosti antivirových a antispamových řešení",
+            "Konfigurace a správa připojení k serveru a stanicím",
+            "Údržba a správa poštovního serveru",
+            "Pravidelná kontrola příchozí a odchozí pošty",
+            "Pravidelné zálohování jednotlivých databází",
+            "Instalace zařízení - tiskáren, skenerů atd.",
+            "Podpora uživatelů"
+        ]
+    },
+    "pageServiceSystems": {
+        "title": "<span>Služby</span>Inteligentní systémy pro klietský servis",
+        "desc": [
+            "Díky IVR (interaktivní hlasová odpověď) zákazníci mohou postupovat podle nahraných pokynů, aby zjistili potřebné informace (mimo pracovní dobu) nebo aby se přepojili na odborníka (v pracovní době).",
+            "CRM (systém na správu vztahů se zákazníky) přináší možnost kontrolovat a klasifikovat jednotlivé hovory a následně automaticky podle typu hovoru zasílat osloveným osobám materiály."
+        ],
+        "illustration": "",
+        "icon": "/images/icon-systems.svg",
+        "list": [
+            "Poradenství a konzultace",
+            "Interaktivní hlasová odpověď i mimo pracovní dobu",
+            "Databáze kontaktů, rychlé a přehledné vyhledávání kontaktů",
+            "Rozpoznání volajících, náhled na frontu volajících",
+            "Filtrace hovorů, upřednostnění důležitých hovorů",
+            "Nahrávání hovorů, možnost převzetí hovorů a odposlechu hovorů",
+            "Ovládání hovorů prostřednictvím dotykového terminálu",
+            "Jednoduchá manipulace s hovory",
+            "Sledování dění v dispečinku",
+            "Náhled na stav vyřízení žádostí",
+            "Možnost propojení CRM s Outlook a Internet Explorer",
+            "Jednoduchá správa dokumentů a kontaktů",
+            "Možnost nastavení databáze příjemců",
+            "Zefektivnění práce s daty",
+            "Reportovací nástroje, přehledy a reporty",
+            "Hromadné rozesílání zpráv",
+            "Možnost nastavení různých podmínek"
+        ]
+    },
+    "pageServiceConsulting": {
+        "title": "<span>Služby</span>Účetní a daňové poradenství",
+        "desc": [
+            "Nabízíme služby pro fyzické i právnické osoby, příspěvkové, rozpočtové a neziskové organizace.",
+            "Nalezneme chyby v účetnictví (z daňového hlediska) za Vás. Poradíme Vám, které náklady si můžete odečíst z daní a najdeme pro Vás nejlepší řešení, abyste měl co nejméně starostí. Ohlídáme a dokonale zpracujeme Vaše účetnictví kdykoliv budete potřebovat."
+        ],
+        "illustration": "/images/illustration-consulting.svg",
+        "icon": "/images/icon-consulting.svg",
+        "list": [
+            "Poradenství a konzultace",
+            "Řešení účetních problémů",
+            "Optimalizace daní",
+            "Příprava podkladů k finančním kontrolám",
+            "Vyhotovení přehledů dle Vašich potřeb",
+            "Zajištění odkladu daňového přiznání",
+            "Zpracování daňových přiznání a účetních výkazů",
+            "Zastupování při jednáních s úřady a při kontrolách finančních úradů",
+            "Komplexní zpracování mezd",
+            "Vedení personální agendy",
+            "Podrobné nebo výběrové ověřování účetních zápisů z daňového hlediska",
+            "Upozornění na daňové termíny"
+        ]
+    },
+    "pageCareer": {
+        "title": "<span>Kariéra</span>Hledáš <i>dream job</i>?",
+        "titleModifier": "page-title--bigger",
+        "desc": "Klíčem k úspěchu je spolupráce.",
+        "boxes": [
+            {
+                "icon": "/images/icon-career-globe.svg",
+                "text": "Skvělý mezinárodní tým profíků"
+            },
+            {
+                "icon": "/images/icon-career-novice.svg",
+                "text": "Maximální podpora nováčkům (aneb žádný učený z nebe nespadl)"
+            },
+            {
+                "icon": "/images/icon-career-magnet.svg",
+                "text": "Motivující finanční ohodnocení (svých kolegů si vážíme a všichni jsme na jedné lodi)"
+            },
+            {
+                "icon": "/images/icon-career-cup.svg",
+                "text": "Rádi uvítáme kolegy s tahem na branku – motivované, pečlivé, samostatné ;-)"
+            }
+        ],
+        "jobBoxesTitle": "Momentálně obsazujeme <strong>tyto pozice</strong>:",
+        "jobBoxes": [
+            {
+                "position": "Copywriter",
+                "seniority": 3,
+                "level": "Native English",
+                "button": {
+                    "url": "https://testurl.com",
+                    "text": "Mám zájem"
+                },
+                "text": "Zajímavou a různorodou práci v zajímavém a atraktivním oboru. velmi atraktivní pracovní prostředí moderní firmy - kanceláře na metru C - Pankrác. Bonusy, zajímavé firemní akce, občerstvení na pracovišti, vše potřebné pro dobrý výkon práce."
+            },
+            {
+                "position": "PPC Specialista",
+                "seniority": 1,
+                "level": "Junior / Středně pokročilý",
+                "button": {
+                    "url": "https://testurl.com",
+                    "text": "Mám zájem"
+                },
+                "text": "Zajímavou a různorodou práci v zajímavém a atraktivním oboru. velmi atraktivní pracovní prostředí moderní firmy - kanceláře na metru C - Pankrác. Bonusy, zajímavé firemní akce, občerstvení na pracovišti, vše potřebné pro dobrý výkon práce."
+            }
+        ]
+    }
+}

@@ -1,5 +1,6 @@
-import React from 'react';
-import {ReferencesSlider} from "../data.js";
+import React, {useContext} from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import {DataContext} from "../context/DataContext.jsx";
 import TinySlider from "tiny-slider-react";
 import 'tiny-slider/dist/tiny-slider.css';
 import {Container, Row, Col} from "react-bootstrap";
@@ -30,12 +31,16 @@ const settings = {
 };
 
 const References = () => {
+  const data = useContext(DataContext);
+
+  if (!data.references) return false;
+
   return (
     <section className={'references'}>
       <Container>
         <Row>
           <Col lg={6} className={'d-flex align-items-center'}>
-            <h2 className={'references-title'}>Reference<span>Klíčem k úspěchu je spolupráce.</span></h2>
+            <h2 className={'references-title'} dangerouslySetInnerHTML={{ __html: data.references.title }} />
           </Col>
           <Col lg={6} className={'d-flex justify-content-end mb-3 mb-lg-0'}>
             <IconsMini />
@@ -46,9 +51,9 @@ const References = () => {
         <Row className={'position-relative'}>
           <Col lg={'10'} className={'offset-lg-1'}>
             <TinySlider className={'ref-slider'} settings={settings}>
-              {ReferencesSlider.map((item, index) => {
+              {data.references.boxes.map((item, index) => {
                 return (
-                  <div key={index} className={'references__slide'}>
+                  <div key={uuidv4()} className={'references__slide'}>
                     <div>
                     <p className={'references__slide__text'}>{item.text}</p>
                     <span className={'references__slide__name'}>{item.name}</span>

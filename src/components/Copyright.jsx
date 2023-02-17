@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import logoSmall from "../assets/images/logo-small.svg"
+import logoSmall from "../../public/images/logo.svg"
 
 const Copyright = () => {
   return (
@@ -8,7 +8,7 @@ const Copyright = () => {
       <Row>
         <Col>
           <div className="copyright">
-            <img src={logoSmall} alt="Pineal.cz"/>
+            <img src={logoSmall} alt="Pineal.cz" height={30}/>
             <p>Copyright © 2020 - 2023 Pineal s.r.o.</p>
           </div>
         </Col>

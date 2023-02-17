@@ -1,32 +1,37 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import {DataContext} from "../context/DataContext.jsx";
 import {Container, Row, Col} from 'react-bootstrap';
 import ButtonDefault from '../components/ButtonDefault.jsx';
-import {footerBoxes, footerTitle} from "../data.js";
 import BoxMiniTitle from "../components/boxMiniTitle.jsx";
 import TitleBig from "../components/TitleBig.jsx";
 import Copyright from '../components/Copyright';
 
 const Footer = () => {
+  const data = useContext(DataContext);
+
+  if (!data.footer) return false;
+
   return (
     <footer className='footer mt-auto'>
       <Container>
         <Row>
           <Col>
-            <TitleBig title={footerTitle.title} subtitle={footerTitle.subtitle} />
+            <TitleBig title={data.footer.title} subtitle={data.footer.subtitle} />
           </Col>
         </Row>
       </Container>
     <Container>
         <Row>
-          {footerBoxes.map((footerBox, index) => {
-            const footerBoxContent = footerBox.content ? <p className={'test'} dangerouslySetInnerHTML={{ __html: footerBox.content }} /> : '';
-            const footerBoxButton = footerBox.btn ? <ButtonDefault tag={footerBox.btn.tag} modifier={footerBox.btn.modifier} text={footerBox.btn.text} link={footerBox.btn.link} target='_blank' /> : '';
+          {data.footer.boxes.map((box, index) => {
+            const boxContent = box.content ? <p className={'test'} dangerouslySetInnerHTML={{ __html: box.content }} /> : '';
+            const boxButton = box.btn ? <ButtonDefault tag={box.btn.tag} modifier={box.btn.modifier} text={box.btn.text} link={box.btn.link} target='_blank' /> : '';
             return (
-              <Col xl={4} key={index}>
+              <Col xl={4} key={uuidv4()} className={'mb-4 mb-xl-0'}>
                 <div className='box-mini'>
-                  <BoxMiniTitle title={footerBox.title} />
-                  {footerBoxContent}
-                  {footerBoxButton}
+                  <BoxMiniTitle title={box.title} />
+                  {boxContent}
+                  {boxButton}
                 </div>
               </Col>
             )

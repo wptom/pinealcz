@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax, ParallaxBanner, useParallax } from 'react-scroll-parallax';
-import iconReferences from "../assets/images/icon-references.svg";
+import iconReferences from "../../public/images/icon-references.svg";
 
 const IconsMini = () => {
   return (

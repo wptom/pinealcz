@@ -1,0 +1,14 @@
+{
+    "usernames": [
+        {
+            "id": 123,
+            "name": "name 1",
+            "username": "username 1"
+        },
+        {
+            "id": 1234,
+            "name": "name 2",
+            "username": "username 2"
+        }
+    ]
+}

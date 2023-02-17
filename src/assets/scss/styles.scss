@@ -66,7 +66,7 @@ body {
 	height: 1310px;
 	top: -270px;
 	left: -550px;
-	background: url("../images/gradient.png") no-repeat;
+	background: url("../../../public/images/gradient.png") no-repeat;
 }
 
 .gradient-2 {
@@ -76,7 +76,7 @@ body {
 	height: 1310px;
 	bottom: 100px;
 	left: 0;
-	background: url("../images/gradient.png") no-repeat center center;
+	background: url("../../../public/images/gradient.png") no-repeat center center;
 	background-size: contain;
 	transform: rotate(120deg);
 	overflow-x: hidden;
@@ -89,7 +89,7 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: url("../images/bg.png") repeat;
+	background: url("../../../public/images/bg.png") repeat;
 	opacity: .2;
 }
 
@@ -141,6 +141,7 @@ body {
 	&:active,
 	&:focus {
 		background-color: $col-green;
+		border: 1px solid $col-green;
 	}
 
 	&--yellow {
@@ -148,12 +149,14 @@ body {
 		&:link,
 		&:visited {
 			background-color: $col-yellow;
+			border: 1px solid $col-yellow;
 		}
 
 		&:hover,
 		&:active,
 		&:focus {
 			background-color: $col-orange;
+			border: 1px solid $col-orange;
 		}
 	}
 
@@ -184,12 +187,16 @@ body {
 	&,
 	&:link,
 	&:visited {
-		padding: 15px 25px 12px 100px;
+		padding: 10px 25px 7px 100px;
 		background-color: transparent;
 		border-radius: 999px;
 		border: 1px solid $col-white;
 		color: $col-white;
 		text-decoration: none;
+
+		@include media-breakpoint-up(lg) {
+			padding: 15px 25px 12px 100px;
+		}
 
 		> span {
 			position: relative;
@@ -201,12 +208,17 @@ body {
 			content: ' ';
 			position: absolute;
 			width: 100%;
-			height: 62px;
+			height: 51px;
 			top: 0;
-			left: calc((100% - 62px) * -1);
+			left: calc((100% - 51px) * -1);
 			background-color: $col-green;
 			border-radius: 999px;
 			transition: $transition;
+
+			@include media-breakpoint-up(lg) {
+				height: 62px;
+				left: calc((100% - 62px) * -1);
+			}
 		}
 
 		&::after {
@@ -216,7 +228,7 @@ body {
 			height: 100%;
 			top: 0;
 			left: calc(100% + 25px);
-			background: url('./../images/arrow-blue.svg') no-repeat center center;
+			background: url('../../../public/images/arrow-blue.svg') no-repeat center center;
 			opacity: 0;
 			transition: $transition;
 		}
@@ -241,28 +253,49 @@ body {
 
 .box-mini {
 	height: 100%;
-	padding: 90px 45px 45px 45px;
+	padding: 40px 30px 40px 30px;
 	background-color: rgba(255, 255, 255, 0.2);
 	border-radius: 30px;
+
+	@include media-breakpoint-up(lg) {
+		padding: 90px 45px 45px 45px;
+	}
+
+	> p {
+		font-size: 16px;
+		color: $col-gray;
+	}
 }
 
 .box-mini-title {
 	margin-bottom: 30px;
-	font-size: 26px;
-	font-weight: 400;
+	font-size: 22px;
+	font-weight: $font-weight-semibold;
+
+	@include media-breakpoint-up(lg) {
+		font-size: 26px;
+	}
 }
 
 .page-title {
 	margin-bottom: 35px;
 	font-family: $font-family-archivo-semiexpanded;
-	font-size: 46px;
+	font-size: 28px;
 	font-weight: $font-weight-medium;
+
+	@include media-breakpoint-up(lg) {
+		font-size: 46px;
+	}
 
 	> span {
 		display: block;
-		margin-bottom: 20px;
-		font-size: 22px;
+		margin-bottom: 15px;
+		font-size: 16px;
 		font-weight: $font-weight-normal;
+
+		@include media-breakpoint-up(lg) {
+			font-size: 20px;
+		}
 	}
 
 	> i {
@@ -299,26 +332,49 @@ body {
 }
 
 .title-big {
-	margin-bottom: 60px;
-	font-size: 58px;
-	font-weight: $font-weight-bold;
+	margin-bottom: 40px;
+	font-size: 28px;
+	font-weight: $font-weight-semibold;
+
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 60px;
+		font-size: 58px;
+		font-weight: $font-weight-bold;
+	}
 
 	span {
 		display: block;
-		margin-bottom: 40px;
-		font-size: 26px;
+		margin-bottom: 30px;
+		font-size: 18px;
 		font-weight: $font-weight-normal;
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 40px;
+			font-size: 26px;
+		}
 	}
 }
 
 .career-positions-title {
 	.page-subtitle {
-		margin-bottom: 80px;
+		margin-bottom: 40px;
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 80px;
+		}
 	}
 }
 
 .career-icons {
-	margin-bottom: 200px;
+	margin-bottom: 0;
+
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 200px;
+	}
+}
+
+.services-list {
+	margin-bottom: 80px;
 }
 
 .box {
@@ -326,6 +382,16 @@ body {
 	padding: 50px 30px 40px 30px;
 	border-radius: 45px;
 	background-color: $col-black;
+
+	@include media-breakpoint-up(lg) {
+		height: 100%;
+	}
+
+	&--list {
+		@include media-breakpoint-up(lg) {
+			height: auto;
+		}
+	}
 }
 
 .icon-box {
@@ -375,7 +441,7 @@ body {
 		width: 12px;
 		height: 20px;
 		margin-right: 5px;
-		background: url('./../images/star.svg') no-repeat top center;
+		background: url('../../../public/images/star.svg') no-repeat top center;
 	}
 
 	.arrow-btn {
@@ -411,7 +477,6 @@ body {
 	position: relative;
 	width: 100%;
 	height: 500px;
-	margin-top: 200px;
 
 	&__circle {
 		position: absolute;
@@ -465,12 +530,17 @@ body {
 }
 
 .copyright {
-	margin-top: 120px;
-	margin-bottom: 150px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	text-align: center;
 
+	@include media-breakpoint-up(lg) {
+		margin-top: 120px;
+		margin-bottom: 150px;
+	}
+
 	img {
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 	}
 
 	p {
@@ -479,17 +549,35 @@ body {
 }
 
 .header {
-	padding: 35px 0;
+	padding: 25px 0;
+
+	&__logo {
+		> img {
+			height: 22px;
+		}
+
+		@include media-breakpoint-up(lg) {
+			> img {
+				height: 34px;
+			}
+		}
+	}
 }
 
 .footer {
 	position: relative;
-	padding-top: 130px;
+	padding-top: 80px;
 	background-color: rgba(0, 0, 0, .2);
 	font-family: $font-family-archivo-semiexpanded;
+
+	@include media-breakpoint-up(lg) {
+		padding-top: 130px;
+	}
 }
 
 .references {
+	margin-bottom: 200px;
+
 	&__slide {
 		position: relative;
 		font-size: 16px;
@@ -524,7 +612,7 @@ body {
 					height: 160px;
 					top: -45px;
 					left: 20px;
-					background: url('./../images/quotes.svg') no-repeat center center;
+					background: url('../../../public/images/quotes.svg') no-repeat center center;
 				}
 			}
 		}
@@ -549,7 +637,7 @@ body {
 		[data-controls='next'] {
 			width: 20px;
 			height: 40px;
-			background: url('./../images/slider-arrow.svg') no-repeat center center;
+			background: url('../../../public/images/slider-arrow.svg') no-repeat center center;
 			border: none;
 			text-indent: -9999px;
 			transition: $transition;
@@ -557,7 +645,7 @@ body {
 			&:hover,
 			&:active,
 			&:focus {
-				background: url('./../images/slider-arrow-hover.svg') no-repeat center center;
+				background: url('../../../public/images/slider-arrow-hover.svg') no-repeat center center;
 			}
 		}
 
@@ -672,6 +760,14 @@ body {
 	&__listen {
 		display: none;
 
+		> img {
+			max-width: 100%;
+
+			@include media-breakpoint-up(xxl) {
+				max-width: none;
+			}
+		}
+
 		@include media-breakpoint-up(xl) {
 			position: relative;
 			display: block;
@@ -736,6 +832,8 @@ body {
 }
 
 .brands {
+	margin-bottom: 100px;
+
 	&__list {
 		&__link {
 			width: 50%;
@@ -745,8 +843,17 @@ body {
 			&:visited {
 				opacity: .4;
 				display: inline-block;
-				padding: 20px 20px;
+				padding: 15px 20px;
 				transition: $transition;
+
+				> img {
+					max-width: 90%;
+
+					@include media-breakpoint-up(lg) {
+						max-width: none;
+						padding: 20px 20px;
+					}
+				}
 			}
 
 			&:hover,
@@ -779,9 +886,102 @@ body {
 }
 
 .glass-box {
+	margin: 0 -17px 120px -17px;
+	padding: 50px 20px;
 	background-color: rgba(0,0,0,.3);
 	border: 4px solid rgba(255,255,255,.23);
 	border-radius: 45px;
+
+	@include media-breakpoint-up(sm) {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 200px;
+		padding: 50px 110px;
+	}
+}
+
+.various-services {
+	&__heading {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 30px;
+
+		&__text {
+			width: 50%;
+			flex-shrink: 1;
+			font-family: $font-family-archivo-semiexpanded;
+			font-size: 28px;
+			font-weight: $font-weight-medium;
+
+			@include media-breakpoint-up(lg) {
+				width: 75%;
+				font-size: 46px;
+			}
+		}
+
+		&__icons {
+			display: flex;
+			flex-flow: row nowrap;
+			flex-basis: 167px;
+			position: relative;
+			width: 167px;
+			max-width: 50%;
+			height: 128px;
+
+			> img {
+				width: 167px;
+				height: 128px;
+			}
+
+			@include media-breakpoint-up(lg) {
+				width: 321px;
+				height: 244px;
+
+				> img {
+					width: 321px;
+					height: 244px;
+				}
+			}
+		}
+	}
+
+	&__title {
+		margin-bottom: 30px;
+		font-family: $font-family-archivo-semiexpanded;
+		font-size: 24px;
+
+		@include media-breakpoint-up(xl) {
+			font-size: 36px;
+		}
+	}
+
+	&__text {
+		flex-grow: 1;
+
+		> p {
+			color: $col-gray;
+			font-size: 15px;
+		}
+	}
+
+	.box {
+		display: flex;
+		flex-flow: column;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		width: auto;
+		height: 100%;
+		margin-bottom: 40px;
+	}
+
+	.arrow-btn {
+		margin-top: 15px;
+	}
 }
 
 .nav {
@@ -874,7 +1074,7 @@ body {
 				height: 30px;
 				top: 10px;
 				right: 30px;
-				background: url('../images/arrow.svg') no-repeat center center;
+				background: url('../../../public/images/arrow.svg') no-repeat center center;
 				text-indent: -9999px;
 				transform: rotate(0deg);
 				transition: all 300ms ease-in-out;
@@ -1023,6 +1223,55 @@ body {
 
 	@include media-breakpoint-up(lg) {
 		display: none;
+	}
+}
+
+.page {
+
+	&--service-marketing {
+		.icons {
+			margin-top: 200px;
+		}
+	}
+
+	&--service-management {
+		.icons {
+			margin-top: 100px;
+		}
+	}
+
+	&--service-consulting {
+		.icons {
+			margin-top: 150px;
+		}
+	}
+
+	// Career
+	&--career {
+		.box {
+			margin-bottom: 80px;
+
+			@include media-breakpoint-up(lg) {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.page-title {
+		margin-bottom: 10px;
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 30px;
+		}
+
+		// Career
+		& + .page-subtitle {
+			margin-bottom: 75px;
+
+			.text-big {
+				font-size: 16px !important;
+			}
+		}
 	}
 }
 

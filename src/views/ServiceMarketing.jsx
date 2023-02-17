@@ -1,44 +1,49 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import {DataContext} from "../context/DataContext.jsx";
 import {Col, Container, Row} from "react-bootstrap";
 import Box from "../components/Box.jsx";
-
-import {pageServiceMarketing} from "../data.js";
 import PageTitle from "../components/PageTitle.jsx";
 import PageDesc from "../components/pageDesc.jsx";
 import PageDescItem from "../components/pageDescItem.jsx";
-
-import illustrationMarketing from "../assets/images/illustration-marketing.svg";
 import Icons from "../components/Icons.jsx";
-import PageIcon from "../components/PageIcon.jsx";
 
 const ServiceMarketing = () => {
+  const data = useContext(DataContext);
+
+  if (!data.pageServiceMarketing) return false;
+
   return (
-    <Container className={'page'}>
+    <Container className={'page page--service-marketing'}>
       <Row>
         <Col lg={6}>
-          <PageTitle title={pageServiceMarketing.title} />
+          <PageTitle title={data.pageServiceMarketing.title} />
           <PageDesc>
-            {pageServiceMarketing.desc.map((item, index) => {
+            {data.pageServiceMarketing.desc.map((item) => {
               return (
-                <PageDescItem desc={item} key={index} />
+                <PageDescItem desc={item} key={uuidv4()} />
                 )
             })}
           </PageDesc>
-          <Icons pageIcon={pageServiceMarketing.icon} />
+          <div className={'d-none d-lg-block'}>
+            <Icons pageIcon={data.pageServiceMarketing.icon} />
+          </div>
         </Col>
         <Col lg={6}>
           <div className="text-center mb-5">
-            <img src={illustrationMarketing} alt=""/>
+            <img src={data.pageServiceMarketing.illustration} alt=""/>
           </div>
-          <Box>
-            <ul className={'list'}>
-              {pageServiceMarketing.list.map((item, index) => {
-                return (
-                  <li className={'list__item'} key={index}>{item}</li>
-                );
-              })}
-            </ul>
-          </Box>
+          <div className={'services-list'}>
+            <Box>
+              <ul className={'list'}>
+                {data.pageServiceMarketing.list.map((item, index) => {
+                  return (
+                    <li className={'list__item'} key={uuidv4()}>{item}</li>
+                  );
+                })}
+              </ul>
+            </Box>
+          </div>
         </Col>
       </Row>
     </Container>

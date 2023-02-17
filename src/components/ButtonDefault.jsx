@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ButtonDefault = (props) => {
-  console.log(props);
   if (props.text === undefined) {
     return (
       <></>

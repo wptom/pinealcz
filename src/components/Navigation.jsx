@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-//import "../assets/scss/nav.scss";
-
 function Navigation() {
   let [classNameMenu, setClassNameMenu] = useState("");
   let [classNameSubmenu, setClassNameSubmenu] = useState("");
@@ -29,10 +27,6 @@ function Navigation() {
   const hideSubmenu = () => {
     setClassNameSubmenu(classNameSubmenu = "");
   }
-
-  window.addEventListener('resize', (e) => {
-    console.log(getViewportWidth());
-  })
 
   const getViewportWidth = () => {
     return window.innerWidth;
