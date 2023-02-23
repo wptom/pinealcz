@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../components/Navigation.jsx";
 import {Container, Row, Col} from "react-bootstrap";
-import logo from "../../public/images/logo.svg";
+import logo from "../../public/images/logo.png";
 
 const Header = () => {
   return (

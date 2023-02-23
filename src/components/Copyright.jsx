@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import logoSmall from "../../public/images/logo.svg"
+import logoSmall from "../../public/images/logo.png"
 
 const Copyright = () => {
   return (

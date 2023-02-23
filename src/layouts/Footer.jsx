@@ -13,7 +13,7 @@ const Footer = () => {
   if (!data.footer) return false;
 
   return (
-    <footer className='footer mt-auto'>
+    <footer id={'footer'} className='footer mt-auto'>
       <Container>
         <Row>
           <Col>

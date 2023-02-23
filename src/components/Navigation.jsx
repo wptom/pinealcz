@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navigation() {
@@ -58,13 +58,13 @@ function Navigation() {
             </ul>
           </li>
           <li className={'nav__list__item'}>
-            <Link to="/" className={'nav__list__item__link'} onClick={toggleMenu}>O nás</Link>
+            <Link to="/about-us" className={'nav__list__item__link'} onClick={toggleMenu}>O nás</Link>
           </li>
           <li className={'nav__list__item'}>
             <Link to="/career" className={'nav__list__item__link'} onClick={toggleMenu}>Kariéra</Link>
           </li>
           <li className={'nav__list__item'}>
-            <Link to="/" className={'nav__list__item__link'} onClick={toggleMenu}>Kontakt</Link>
+            <a href="#footer" className={'nav__list__item__link'}>Kontakt</a>
           </li>
         </ul>
       </nav>

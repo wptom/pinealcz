@@ -1,5 +1,4 @@
 import React from 'react';
-import {pageCareer} from "../data.js";
 
 const PageSubtitle = (props) => {
   return (

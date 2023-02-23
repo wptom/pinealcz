@@ -20,8 +20,8 @@
                 "modifierClass": " btn--inverted"
             }
         ],
-        "illustrationLeft": "/images/hero-talk.svg",
-        "illustrationRight": "/images/hero-listen.svg"
+        "illustrationLeft": "/images/hero-talk.png",
+        "illustrationRight": "/images/hero-listen.png"
     },
     "brands": {
         "title": "Přidejte se k vysoce produktivním týmům našich partnerů",
@@ -29,65 +29,65 @@
             {
                 "name": "BidAskBit",
                 "url": "http://bidaskbit.com/",
-                "imgPath": "/images/brand-bidaskbit.svg"
+                "imgPath": "/images/brand-bidaskbit.png"
             },
             {
                 "name": "Coinfy",
                 "url": "http://coinfy.io/en",
-                "imgPath": "/images/brand-coinfy.svg"
+                "imgPath": "/images/brand-coinfy.png"
             },
             {
                 "name": "MyCoiner",
                 "url": "https://mycoiner.cz/cs",
-                "imgPath": "/images/brand-mycoiner.svg"
+                "imgPath": "/images/brand-mycoiner.png"
             },
             {
                 "name": "Virarosi",
                 "url": "https://virarosi.com/en",
-                "imgPath": "/images/brand-virarosi.svg"
+                "imgPath": "/images/brand-virarosi.png"
             },
             {
                 "name": "3AngleFX",
                 "url": "https://3anglefx.com/",
-                "imgPath": "/images/brand-3anglefx.svg"
+                "imgPath": "/images/brand-3anglefx.png"
             },
             {
                 "name": "TriangleMarkets",
                 "url": "https://triangle.markets/en",
-                "imgPath": "/images/brand-trianglemarkets.svg"
+                "imgPath": "/images/brand-trianglemarkets.png"
             }
         ],
         "row2": [
             {
                 "name": "ZetaTraders",
                 "url": "https://zetatraders.com/",
-                "imgPath": "/images/brand-zetatrader.svg"
+                "imgPath": "/images/brand-zetatrader.png"
             },
             {
                 "name": "CFForex",
                 "url": "https://cfforex.com/",
-                "imgPath": "/images/brand-forex.svg"
+                "imgPath": "/images/brand-forex.png"
             },
             {
                 "name": "Fannex",
                 "url": "https://www.fannexx.com/",
-                "imgPath": "/images/brand-fannex.svg"
+                "imgPath": "/images/brand-fannex.png"
             },
             {
                 "name": "iPromarkets",
                 "url": "https://ipromarkets.com/",
-                "imgPath": "/images/brand-ipromarkets.svg"
+                "imgPath": "/images/brand-ipromarkets.png"
             },
             {
                 "name": "InvestCentrum",
                 "url": "https://investcentrum.cz",
-                "imgPath": "/images/brand-investcentrum.svg"
+                "imgPath": "/images/brand-investcentrum.png"
             }
         ]
     },
     "variousServices": {
         "title": "Rozmanitá nabídka služeb",
-        "titleImgPath": "/images/various-services.svg",
+        "titleImgPath": "/images/various-services.png",
         "serviceBoxes": [
             {
                 "title": "Marketing a reklama",
@@ -151,8 +151,20 @@
                 "name": "Peter Kollár, 3AngleFX"
             },
             {
-                "text": "ZMENIT!!!--->Top level service, qualified and creative people. Our company always enjoys this collaboration. In addition, they value a great empathetic human approach. This organization really cares about their clients and not just about what they’ll receive in return.“",
-                "name": "John Doe, BidAskBit"
+                "text": "Una de subllas mejores agencias de marketing con las que he trabajado, y eso que he trabajado con varias.",
+                "name": "Carlos Villa, iProMarkets"
+            },
+            {
+                "text": "Unmatched professionalism, outstanding level of knowledge surrounding the industry, always feel comfortable working with Pineal.",
+                "name": "Alexandra Korso, HelosTrade"
+            },
+            {
+                "text": "Excellent consultancy package for increasing traffic and driving results for our business. Can only say positive things about the team at Pineal, highly recommend.",
+                "name": "Hồ Trương Minh Triều, OIPAX"
+            },
+            {
+                "text": "بذلوا مجهودًا كبيرًا للتعرف على أعمالنا و لمساعدتنا على اهتماماتنا وأهدافنا بشكل صحيح. سأعمل معهم مجددًا.",
+                "name": "محمد الرشيدي, FlexiTrades   "
             }
         ]
     },
@@ -190,8 +202,8 @@
             "Specializujeme se tvorbou a přípravou reklamních návrhů a plánů, případně Vám zařídíme i pronájem reklamních prostorů nebo času v médiích.",
             "Na základě Vašich požadavků navrhneme a vytvoříme reklamní kampaň a strategii, která Vám pomůže dostáhnout stanoveného cíle."
         ],
-        "illustration": "/images/illustration-marketing.svg",
-        "icon": "/images/icon-marketing.svg",
+        "illustration": "/images/illustration-marketing.png",
+        "icon": "/images/icon-marketing.png",
         "list": [
             "Poradenství a konzultace se specialisty v oblasti marketingu",
             "Návrh marketingových kampaní a PPC strategií",
@@ -215,7 +227,7 @@
             "Prověříme aktuální stav Vašich počítačů a počítačové sítě, v případě potřeby zajistíme komplexní audit stávajícího vybavení a navrhneme Vám optimální řešení."
         ],
         "illustration": "",
-        "icon": "/images/icon-management.svg",
+        "icon": "/images/icon-management.png",
         "list": [
             "Poradenství a konzultace",
             "Upgrade a modernizace vybavení dle potřeb zákazníka",
@@ -244,7 +256,7 @@
             "CRM (systém na správu vztahů se zákazníky) přináší možnost kontrolovat a klasifikovat jednotlivé hovory a následně automaticky podle typu hovoru zasílat osloveným osobám materiály."
         ],
         "illustration": "",
-        "icon": "/images/icon-systems.svg",
+        "icon": "/images/icon-systems.png",
         "list": [
             "Poradenství a konzultace",
             "Interaktivní hlasová odpověď i mimo pracovní dobu",
@@ -271,8 +283,8 @@
             "Nabízíme služby pro fyzické i právnické osoby, příspěvkové, rozpočtové a neziskové organizace.",
             "Nalezneme chyby v účetnictví (z daňového hlediska) za Vás. Poradíme Vám, které náklady si můžete odečíst z daní a najdeme pro Vás nejlepší řešení, abyste měl co nejméně starostí. Ohlídáme a dokonale zpracujeme Vaše účetnictví kdykoliv budete potřebovat."
         ],
-        "illustration": "/images/illustration-consulting.svg",
-        "icon": "/images/icon-consulting.svg",
+        "illustration": "/images/illustration-consulting.png",
+        "icon": "/images/icon-consulting.png",
         "list": [
             "Poradenství a konzultace",
             "Řešení účetních problémů",
@@ -288,25 +300,34 @@
             "Upozornění na daňové termíny"
         ]
     },
+    "pageAboutUs": {
+        "title": "<span>O nás</span>Kdo jsme?",
+        "desc": [
+            "Společnost <strong>Pineal s.r.o.</strong> byla založena 16. března 2011.",
+            "Rádi vám poskytneme <strong>kompletní mix marketingových služeb</strong>, reklamní návrhy a plány. Zajistíme vám pronájem reklamního prostoru v médiích, navrhneme marketingovou strategii. Na náš tým marketérů a kreativců se můžete spolehnout.",
+            "Nabízíme také inteligentní systémy pro udržování vztahů se zákazníky. Prvním je IVR (interaktivní hlasová odpověď), kde zákazníci mohou postupovat podle předem nahraných pokynů, aby zjistili potřebné informace nebo aby se přepojili na daného odborníka. Dalším systémem je <strong>CRM</strong> (systém na správu vztahů se zákazníky), díky kterému získáte možnost kontrolovat a klasifikovat jednotlivé hovory a poté zasílat osloveným osobám typ materiálů podle druhu hovoru."
+        ],
+        "illustration": "/images/illustration-about-us.png"
+    },
     "pageCareer": {
         "title": "<span>Kariéra</span>Hledáš <i>dream job</i>?",
         "titleModifier": "page-title--bigger",
         "desc": "Klíčem k úspěchu je spolupráce.",
         "boxes": [
             {
-                "icon": "/images/icon-career-globe.svg",
+                "icon": "/images/icon-career-globe.png",
                 "text": "Skvělý mezinárodní tým profíků"
             },
             {
-                "icon": "/images/icon-career-novice.svg",
+                "icon": "/images/icon-career-novice.png",
                 "text": "Maximální podpora nováčkům (aneb žádný učený z nebe nespadl)"
             },
             {
-                "icon": "/images/icon-career-magnet.svg",
+                "icon": "/images/icon-career-magnet.png",
                 "text": "Motivující finanční ohodnocení (svých kolegů si vážíme a všichni jsme na jedné lodi)"
             },
             {
-                "icon": "/images/icon-career-cup.svg",
+                "icon": "/images/icon-career-cup.png",
                 "text": "Rádi uvítáme kolegy s tahem na branku – motivované, pečlivé, samostatné ;-)"
             }
         ],

@@ -5,7 +5,6 @@ import {Col, Container, Row} from "react-bootstrap";
 import GlassBox from "./GlassBox.jsx";
 import Box from "./Box.jsx";
 import ArrowButton from "./ArrowButton.jsx";
-import {VariousServicesData} from "../data";
 
 const VariousServices = () => {
   const data = useContext(DataContext);
@@ -36,7 +35,7 @@ const VariousServices = () => {
                         <h3 className={'various-services__title'} dangerouslySetInnerHTML={{ __html: item.title }} />
                         <div className={'various-services__text'}>
                         {item.text.map((textItem, textIndex) => (
-                          <p key={'par' + index} dangerouslySetInnerHTML={{ __html: textItem }} />
+                          <p key={uuidv4()} dangerouslySetInnerHTML={{ __html: textItem }} />
                         ))}
                         </div>
                         <div>
